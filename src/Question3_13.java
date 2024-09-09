@@ -7,3 +7,5 @@ public class Question3_13 {
         System.out.println(a.equals(b));
     }
 }
+//1つ目→参照が違うのでfalse
+//2つ目→Stringのequals()メソッドは,参照の他に文字列が同じか確認するメソッドをオーバーライドしているのでtrue
